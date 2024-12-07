@@ -1,3 +1,5 @@
+**NOTE:** This theme is no longer being maintained. Please consider using a different theme going forward.
+
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/bottledlactose.darkbox)
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/bottledlactose.darkbox)
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/bottledlactose.darkbox)
@@ -21,6 +23,10 @@ The extension can be easily installed through the [Visual Studio marketplace](ht
 If you run into any problems using this theme or if you would like to make a suggestion, please [open an issue](https://github.com/bottledlactose/darkbox-vscode/issues).
 
 ## Changelog
+
+### 1.6.2
+
+- This theme is no longer being maintained. Please consider using a different theme going forward.
 
 ### v1.6.1
 
