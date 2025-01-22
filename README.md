@@ -1,5 +1,3 @@
-**NOTE:** This theme is no longer being maintained. Please consider using a different theme going forward.
-
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/bottledlactose.darkbox)
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/bottledlactose.darkbox)
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/bottledlactose.darkbox)
@@ -13,20 +11,53 @@
 
 # Darkbox Theme
 
-Darkbox is a distraction-free, retro-style color theme inspired by the popular Gruvbox theme for Vim and Neovim. It features the original syntax highlighting and cohesive workbench and terminal colors to enhance your coding experience in Visual Studio Code.
+A high-contrast, dark UI theme for Visual Studio Code, heavily inspired by Gruvbox, a beloved color palette widely used by developers everywhere. Darkbox aims to keep your focus on the code by providing a clean, minimal design with comfortable contrast.
 
 ![Darkbox Modern screenshot](https://raw.githubusercontent.com/bottledlactose/darkbox-vscode/trunk/images/darkbox-modern.png)
 ![Darkbox Modern Soft screenshot](https://raw.githubusercontent.com/bottledlactose/darkbox-vscode/trunk/images/darkbox-modern-soft.png)
 
-The extension can be easily installed through the [Visual Studio marketplace](https://marketplace.visualstudio.com/items?itemName=bottledlactose.darkbox).
+## Features
 
-If you run into any problems using this theme or if you would like to make a suggestion, please [open an issue](https://github.com/bottledlactose/darkbox-vscode/issues).
+- **Gruvbox-Inspired Palette**  
+  Darkbox’s color choices owe much to the original Gruvbox palette, featuring warm, natural hues that keep your eyes comfortable during long coding sessions.
+
+- **Easy on the Eyes**  
+  A carefully chosen dark background helps reduce eye strain while keeping your code front and center.
+
+- **Vibrant Syntax Highlighting**  
+  Keywords, strings, constants, and language features all stand out with distinct but harmonious colors.
+
+- **Minimal UI Distractions**  
+  Subdued UI elements keep attention on your editor content, letting you focus on what matters.
+
+- **Broad Language Support**  
+  Whether you’re writing Rust, JavaScript, Python, or any other language, Darkbox aims to provide consistent coloring and clarity.
+
+- **Optimized for Contrast**  
+  Text in the editor, sidebar, and panel is easy to read, with enough contrast to prevent visual fatigue over long coding sessions.
+
+## Installation
+
+1. Open Visual Studio Code.
+2. Go to the **Extensions** panel (`View` → `Extensions` or press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>).
+3. Search for **"DarkBox VS Code Theme"**.
+4. Click **Install**.
+5. Once installed, open the Command Palette (`Ctrl`+`Shift`+`P`), type **“Color Theme”**, and select **DarkBox** from the list.
+
+## Usage
+
+After installation, DarkBox becomes available as one of your editor’s color themes. Simply select it via:
+
+1. **Command Palette** → **Color Theme** → **DarkBox**  
+   or  
+2. **Preferences** → **Color Theme** → **DarkBox**
 
 ## Changelog
 
-### 1.6.2
+### 1.7.0
 
-- This theme is no longer being maintained. Please consider using a different theme going forward.
+- Removed legacy theme
+- Removed "Modern" tag for main themes
 
 ### v1.6.1
 
@@ -41,6 +72,10 @@ If you run into any problems using this theme or if you would like to make a sug
 - Moved experimental themes to become new default to comply with modern VS Code theming standards (based on the new default VS Code theme)
 - Moved 1.5 theme to legacy state, meaning it will no longer be updated with new theming options
 
-## Credits
+## Acknowledgements
 
 Special thanks to the original creator of [Gruvbox](https://github.com/morhetz/gruvbox) and the [Gruvbox VS Code theme](https://github.com/jdinhify/vscode-theme-gruvbox) which this project was forked from.
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/bottledlactose/darkbox-vscode/blob/trunk/LICENSE).
