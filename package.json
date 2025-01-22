@@ -28,14 +28,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Darkbox (Modern)",
+        "label": "Darkbox",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkbox-modern.json"
+        "path": "./themes/darkbox.json"
       },
       {
-        "label": "Darkbox (Modern Soft)",
+        "label": "Darkbox (Soft)",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkbox-modern-soft.json"
+        "path": "./themes/darkbox-soft.json"
       }
     ]
   }
