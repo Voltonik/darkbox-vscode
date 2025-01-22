@@ -40,21 +40,21 @@ A high-contrast, dark UI theme for Visual Studio Code, heavily inspired by Gruvb
 
 1. Open Visual Studio Code.
 2. Go to the **Extensions** panel (`View` → `Extensions` or press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>).
-3. Search for **"DarkBox VS Code Theme"**.
+3. Search for **"Darkbox"**.
 4. Click **Install**.
-5. Once installed, open the Command Palette (`Ctrl`+`Shift`+`P`), type **“Color Theme”**, and select **DarkBox** from the list.
+5. Once installed, open the Command Palette (`Ctrl`+`Shift`+`P`), type **“Color Theme”**, and select **Darkbox** from the list.
 
 ## Usage
 
-After installation, DarkBox becomes available as one of your editor’s color themes. Simply select it via:
+After installation, Darkbox becomes available as one of your editor’s color themes. Simply select it via:
 
-1. **Command Palette** → **Color Theme** → **DarkBox**  
+1. **Command Palette** → **Color Theme** → **Darkbox**  
    or  
-2. **Preferences** → **Color Theme** → **DarkBox**
+2. **Preferences** → **Color Theme** → **Darkbox**
 
 ## Changelog
 
-### 1.7.0
+### v1.7.0
 
 - Removed legacy theme
 - Removed "Modern" tag for main themes
