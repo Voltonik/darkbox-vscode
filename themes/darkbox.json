@@ -756,7 +756,7 @@
     },
     // C C++ ----------------------------------------
     {
-      "name": "C++ Function Return Type",
+      "name": "C++ Types",
       "scope": [
         "entity.name.type.cpp",
         "meta.qualified-type.cpp",
@@ -768,6 +768,13 @@
     },
     {
       "name": "C++ Function Name",
+      "scope": "entity.name.function.cpp",
+      "settings": {
+        "foreground": "#8ec07c"
+      }
+    },
+    {
+      "name": "C++ Function Member",
       "scope": "entity.name.function.member.cpp",
       "settings": {
         "foreground": "#8ec07c"
@@ -775,12 +782,9 @@
     },
     {
       "name": "C++ Scope Resolution Operator",
-      "scope": [
-        "entity.name.scope-resolution.function.definition.cpp",
-        "meta.function.definition.cpp"
-      ],
+      "scope": "entity.name.scope-resolution.function.definition.cpp",
       "settings": {
-        "foreground": "#83a598" // gruvbox blue
+        "foreground": "#83a598"
       }
     },
     {
