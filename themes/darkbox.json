@@ -768,14 +768,11 @@
     },
     {
       "name": "C++ Function Name",
-      "scope": "entity.name.function.cpp",
-      "settings": {
-        "foreground": "#8ec07c"
-      }
-    },
-    {
-      "name": "C++ Function Member",
-      "scope": "entity.name.function.member.cpp",
+      "scope": [
+        "entity.name.function.cpp",
+        "entity.name.function.member.cpp",
+        "entity.name.function.member.static.cpp"
+      ],
       "settings": {
         "foreground": "#8ec07c"
       }
